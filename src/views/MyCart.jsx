@@ -12,6 +12,7 @@ function MyCart() {
     const existingCart =
       JSON.parse(localStorage.getItem("cartItems")) || [];
     setCartItems(existingCart);
+     
   }, []);
 
   // Calculate total using reduce (cleaner method)
@@ -21,7 +22,14 @@ function MyCart() {
       0
     );
     setTotalAmount(total);
+     
   }, [cartItems]);
+
+  const removeFromCart = (itemId) => {
+    const updatedCart = cartItems.filter(item => item.id !== itemId);
+    setCartItems(updatedCart);
+    localStorage.setItem("cartItems", JSON.stringify(updatedCart));
+  };
 
   return (
     <>
@@ -54,6 +62,7 @@ function MyCart() {
                   <CartVegitableItem
                     key={item.id}
                     {...item}
+                    onRemove={removeFromCart}
                   />
                 ))}
               </div>

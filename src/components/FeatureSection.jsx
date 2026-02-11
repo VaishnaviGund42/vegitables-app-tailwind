@@ -1,7 +1,7 @@
 import React from "react";
-import IconFresh from "../assets/fresh.png";
-import IconQuality from "../assets/high-quality.png";
-import IconSatisfaction from "../assets/satisfaction.png";
+const IconFresh = "https://picsum.photos/56/56?random=2";
+const IconQuality = "https://picsum.photos/56/56?random=3";
+const IconSatisfaction = "https://picsum.photos/56/56?random=4";
 
 const FEATURES_CONFIG = [
   {

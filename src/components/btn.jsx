@@ -1,6 +1,8 @@
 import React from "react";
 
 const VARIANTS = {
+  primary: "bg-emerald-600 text-white hover:bg-emerald-700 shadow-md",
+  secondary: "border-2 border-emerald-600 text-emerald-700 hover:bg-emerald-600 hover:text-white",
   solid: "bg-emerald-600 text-white hover:bg-emerald-700 shadow-md",
   outline: "border-2 border-emerald-600 text-emerald-700 hover:bg-emerald-600 hover:text-white",
   ghost: "text-emerald-700 hover:bg-emerald-100",

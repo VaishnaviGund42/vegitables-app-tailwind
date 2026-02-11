@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
-import { BrowserRouter,Routes,Route } from "react-router";
+import { BrowserRouter,Routes,Route } from "react-router-dom";
 import {createRoot} from "react-dom/client"
+import './index.css'
 import Home from './views/Home';
 import Vegitable from './views/Vegitable';
 import MyCart from './views/MyCart';

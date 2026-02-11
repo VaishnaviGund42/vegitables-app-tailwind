@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Salad, ShoppingCart } from "lucide-react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 function Navbar({ refreshCart }) {
   const [cartCount, setCartCount] = useState(0);
@@ -9,6 +9,7 @@ function Navbar({ refreshCart }) {
     const existingCart =
       JSON.parse(localStorage.getItem("cartItems")) || [];
     setCartCount(existingCart.length);
+     
   }, [refreshCart]);
 
   return (

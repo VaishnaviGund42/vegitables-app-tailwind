@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import FeatureSection from "../components/FeatureSection";
-import imgMainHeader from "../assets/main-header.svg";
+import imgMainHeader from "../assets/main-header.png";
 import Button from "../components/btn.jsx";
 import { useNavigate } from "react-router-dom";
 

@@ -29,7 +29,7 @@ function Button({
       onClick={onClick}
       disabled={disabled}
       className={`
-        rounded-xl font-semibold transition-all duration-300 
+        rounded-3xl font-semibold transition-all duration-300 
         transform hover:scale-105 active:scale-95
         ${VARIANTS[variant]}
         ${SIZES[size]}

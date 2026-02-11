@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import FeatureSection from "../components/FeatureSection";
-const imgMainHeader = "https://picsum.photos/500/400?random=1";
+import imgMainHeader from "../assets/main-header.svg";
 import Button from "../components/btn.jsx";
 import { useNavigate } from "react-router-dom";
 

@@ -1,7 +1,9 @@
 import React, { useState, useMemo } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import vegitable_data from "../data.json";
+// import vegitable_data from "../data.json";
+import vegitable_data from "../data";
+
 import VegitableCard from "../components/VegitableCard";
 import toast, { Toaster } from "react-hot-toast";
 

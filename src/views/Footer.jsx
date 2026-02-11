@@ -4,22 +4,22 @@ import { Instagram, Youtube, Linkedin, Github } from "lucide-react";
 const socialLinks = [
   {
     name: "GitHub",
-    url: "https://github.com/pratiksha950?tab=repositories",
+    url: "https://github.com/VaishnaviGund42/vegitables-app-tailwind",
     icon: Github,
   },
   {
     name: "LinkedIn",
-    url: "https://linkedin.com/in/pratiksha950",
+    url: "https://www.linkedin.com/feed/",
     icon: Linkedin,
   },
   {
     name: "YouTube",
-    url: "https://youtube.com/@pratiksha950",
+    url: "https://www.youtube.com/",
     icon: Youtube,
   },
   {
     name: "Instagram",
-    url: "https://instagram.com/pratiksha950/",
+    url: "https://www.instagram.com/explore/?hl=en",
     icon: Instagram,
   },
 ];
@@ -55,7 +55,7 @@ function Footer() {
         </div>
 
         <div className="text-xs opacity-80">
-          © {new Date().getFullYear()} VeggieHub. All Rights Reserved.
+          © {new Date().getFullYear()} Vegitables-app. All Rights Reserved.
         </div>
 
       </div>

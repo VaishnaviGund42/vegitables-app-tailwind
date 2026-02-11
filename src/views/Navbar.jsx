@@ -23,7 +23,7 @@ function Navbar({ refreshCart }) {
         >
           <Salad size={36} className="text-green-600" />
           <span className="text-2xl font-bold tracking-wide">
-            VeggieHub
+            Vegitables-app
           </span>
         </Link>
 
